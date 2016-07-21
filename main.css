@@ -1,0 +1,159 @@
+body {
+    border: 1px solid black;
+    min-width: 800px;
+    font-size: 24px;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.logo {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    background-image: url(https://sheepy85.files.wordpress.com/2015/02/laravel_logo-circle-tp-xs.png);
+}
+
+.head_title {
+    display: inline-block;
+    height: 162px;
+    padding-left: 30px;
+    vertical-align: middle;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav {
+    margin: -2px;
+    padding: 0;
+    display: inline-block;
+    float: left;
+    width: 250px;
+    height: 100%;
+    border: 2px solid black;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    background-color: #ead1dc;
+}
+nav ul li{
+    list-style-type: none;
+    height: 25px;
+    padding: 10px;
+    text-align: left;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+.main_content {
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 250px;
+}
+
+.upper_content_box {
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+}
+.bottom_content_box {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+.text_in_bottom_box {
+    padding-top: 45px;
+    padding-left: 15px;
+}
+.centered_data_block {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    background-color: #ead1dc;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+}
+
+.centered_data_block > span {
+    display: block;
+    padding-top: 45px;
+}
+.centered_data_block:nth-child(3):before{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 50px;
+    top: 0;
+    left: 215px;
+    border-bottom: 2px solid blue;
+    -moz-transform: rotate(45deg);  /* Firefox */
+    -o-transform: rotate(45deg);  /* Opera */
+    -webkit-transform: rotate(45deg);  /* Safari y Chrome */
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476); /* IE */
+}
+
+.centered_vertically_data_block {
+    width: 29%;
+    display: inline-block;
+    height: 170px;
+    background-color: #ead1dc;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: left;
+}
+
+.upper_content_box_for_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: table;
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    background-color: #fff0c2;
+}
+
+footer {
+    margin: -2px;
+    padding: 0;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.footer_upper_block {
+    margin: -1px;
+    width: 33.33%;
+    display: inline-block;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+.footer_bottom_block {
+     width: 100%;
+     height: 100%;
+     border: 1px solid black;
+     text-align: center;
+     line-height: 70px;
+ }
